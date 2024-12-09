@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container
+{
+    /* border: 3px solid black; */
+    background-color: aquamarine;
+}
+
+.btn{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border: 2px solid pink;
+    border-radius: 7px;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#game
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+}
